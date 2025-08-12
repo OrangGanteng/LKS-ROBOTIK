@@ -1,9 +1,9 @@
 ## 🏆 Lomba Kompetensi Siswa - Proyek Robotik
 
-<ig src="https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUybmNpYjZzOWE3b3R0ZnVwaG80Y2FrZThsZHo2ZnVpeXFwcnNpaGJ4byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6BrDIluuL14IwAkbqe/giphy.gif" width="190" height="190">
+<ig src="https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyNDBseDdpb3lxeGJld2l3MmZsaWgxNTgxeTY1NGFqNXpvODUwOThvcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HlNaQ6gWfllcjDO/giphy.gif" width="190" height="190">
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXo4eGloY2trYWNqM3A3dXdkc2N1aWxldmQ0ZjZsbm82NjlybW9kYSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/BzzbSfGqCqgM4/giphy.gif" alt="Robot Animation" width="800">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyNDBseDdpb3lxeGJld2l3MmZsaWgxNTgxeTY1NGFqNXpvODUwOThvcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HlNaQ6gWfllcjDO/giphy.gif" alt="Robot Animation" width="800">
 </p>
 
 <p align="center">
