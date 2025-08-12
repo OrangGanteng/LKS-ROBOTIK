@@ -2,11 +2,26 @@
 
 <ig src="https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUybmNpYjZzOWE3b3R0ZnVwaG80Y2FrZThsZHo2ZnVpeXFwcnNpaGJ4byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6BrDIluuL14IwAkbqe/giphy.gif" width="190" height="190">
 
-![Status](https://img.shields.io/badge/Status-In%20Progress-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Arduino](https://img.shields.io/badge/Platform-Arduino-orange)
-![Elektronika](https://img.shields.io/badge/Category-Robotics-lightgrey)
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXo4eGloY2trYWNqM3A3dXdkc2N1aWxldmQ0ZjZsbm82NjlybW9kYSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/BzzbSfGqCqgM4/giphy.gif" alt="Robot Animation" width="800">
+</p>
 
+<p align="center">
+  <span style="display:inline-block; margin:5px;">
+    <img src="https://img.shields.io/badge/Status-In%20Progress-blue" alt="Status">
+  </span>
+  <span style="display:inline-block; margin:5px;">
+    <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+  </span>
+  <br>
+  <span style="display:inline-block; margin:5px;">
+    <img src="https://img.shields.io/badge/Platform-Arduino-orange" alt="Arduino">
+  </span>
+  <span style="display:inline-block; margin:5px;">
+    <img src="https://img.shields.io/badge/Category-Robotics-lightgrey" alt="Elektronika">
+  </span>
+</p>
+      
 ---
 
 ## 📌 Deskripsi Proyek
