@@ -33,7 +33,7 @@ Robot ini menggabungkan teknologi penggerak **Omnidirectional, kendali jarak jau
 | **Motor**          | DC Motor, Servo Motor                        |
 | **Ban**      | 4x Ban Mekanum (Diameter 60–80 mm)                   |
 | **Bahasa**         | C / C++ (Arduino IDE)                        |
-| **Fitur Utama**    | - Kendali multi-arah (maju, mundur, kiri, kanan, diagonal, rotasi), Pengambilan & pemindahan objek dengan servo gripper, Respon cepat terhadap perintah IR remote |
+| **Fitur Utama**    | - Kendali multi-arah (maju, mundur, kiri, kanan, diagonal, rotasi)<br> - Pengambilan & pemindahan objek dengan servo gripper<br> - Respon cepat terhadap perintah IR remote |
 
 ---
 
