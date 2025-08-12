@@ -1,4 +1,6 @@
-# 🏆 Lomba Kompetensi Siswa – Proyek Robotik
+## 🏆 Lomba Kompetensi Siswa - Proyek Robotik
+
+<ig src="https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUybmNpYjZzOWE3b3R0ZnVwaG80Y2FrZThsZHo2ZnVpeXFwcnNpaGJ4byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6BrDIluuL14IwAkbqe/giphy.gif" width="190" height="190">
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
