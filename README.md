@@ -38,18 +38,38 @@ Robot ini menggabungkan teknologi penggerak **Omnidirectional, kendali jarak jau
 ---
 
 
-## 🚀 Status Pengembangan
-✅ Desain & perakitan hardware  
-✅ Pengujian sensor & motor  
-🔄 Optimasi algoritma navigasi  
+# 🚧 Status Pengembangan
+
+
+Saat ini proyek **Robot Mekanum dengan IR Remote & Servo Gripper** masih berada pada **tahap perancangan (Design Stage)**.
+
+## 🔍 Aktivitas yang Sedang Dilakukan
+- Merancang konsep mekanik dan bentuk rangka robot.
+- Menentukan daftar komponen yang akan digunakan (Bill of Materials).
+- Membuat skema rangkaian elektronik.
+- Mendesain posisi pemasangan ban mekanum dan servo gripper.
+- Menyusun alur kerja dan flowchart program.
+
+## 🗓 Target Tahap Berikutnya
+- Perakitan mekanik robot.
+- Instalasi komponen elektronik.
+- Pengujian fungsi dasar motor dan servo.
 
 ---
 
-## 🏅 Tim Proyek
-- **Anggota:**  
-  - [Argana Radix] – *Hardware Engineer*
-  - [Faisal Nandy] – *Software Engineer*   
+> 📅 **Update Terakhir:** 12 Agustus 2025  
+> Status: *Masih dalam tahap perancangan, belum masuk tahap perakitan.*
 
+---
+
+# 👥 Tim Proyek
+
+Proyek ini dikerjakan oleh tim yang terdiri dari individu dengan peran dan keahlian masing-masing untuk memastikan setiap aspek robot dapat berfungsi dengan optimal.
+
+| Nama              | Peran                | Tugas Utama |
+|-------------------|----------------------|-------------|
+| **Argana Radix**  | Hardware Engineer    | - Merancang dan merakit rangka robot<br>- Instalasi komponen elektronik<br>- Wiring dan pengujian hardware |
+| **Faisal Nandy**  | Software Engineer    | - Membuat dan mengoptimasi kode program<br>- Mengintegrasikan kendali IR remote & servo gripper<br>- Debugging dan pengujian sistem kontrol |
 ---
 
 ## 📜 Lisensi
