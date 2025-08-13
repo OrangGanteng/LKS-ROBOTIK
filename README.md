@@ -1,5 +1,7 @@
-## 🏆 Lomba Kompetensi Siswa - Proyek Robotik
-
+<div align="center">
+  
+  ## 🏆 Lomba Kompetensi Siswa - Proyek Robotik
+</div>
 <ig src="https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyNDBseDdpb3lxeGJld2l3MmZsaWgxNTgxeTY1NGFqNXpvODUwOThvcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HlNaQ6gWfllcjDO/giphy.gif" width="190" height="190">
 
 <p align="center">
