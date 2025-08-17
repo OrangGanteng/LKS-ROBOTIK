@@ -13,53 +13,139 @@ AF_DCMotor motor2(2);
 AF_DCMotor motor3(3);
 AF_DCMotor motor4(4);
 
-int kodebintang = 22;
-int kodepagar = 13;
-
-void kanan() {
-  motor1.run(FORWARD);
-  motor2.run(BACKWARD);
-  motor3.run(FORWARD);
-  motor4.run(BACKWARD);
+int speedL = 150;
+int speedH = 200;
+void maju()
+{
+  motor1.setSpeed(speedL); 
+  motor1.run(FORWARD);  
+  motor2.setSpeed(speedL)
+  motor2.run(FORWARD);  
+  motor3.setSpeed(speedL); 
+  motor3.run(FORWARD);  
+  motor4.setSpeed(speedL); 
+  motor4.run(FORWARD);  
 }
 
-void kiri() {
-  motor1.run(BACKWARD);
-  motor2.run(FORWARD);
-  motor3.run(BACKWARD);
-  motor4.run(FORWARD);
+void mundur()
+{
+  motor1.setSpeed(speedH); 
+  motor1.run(BACKWARD); 
+  motor2.setSpeed(speedL); 
+  motor2.run(BACKWARD); 
+  motor3.setSpeed(speedL); 
+  motor3.run(BACKWARD); 
+  motor4.setSpeed(speedL); 
+  motor4.run(BACKWARD); 
 }
 
-void berhenti() {
+void kanan()
+{
+  motor1.setSpeed(speedH); 
+  motor1.run(FORWARD); 
+  motor2.setSpeed(speedH); 
+  motor2.run(BACKWARD); 
+  motor3.setSpeed(speedH); 
+  motor3.run(FORWARD);  
+  motor4.setSpeed(speedH); 
+  motor4.run(BACKWARD);  
+}
+
+void kiri()
+{
+  motor1.setSpeed(speedH); 
+  motor1.run(BACKWARD);  
+  motor2.setSpeed(speedH); 
+  motor2.run(FORWARD);  
+  motor3.setSpeed(speedH); 
+  motor3.run(BACKWARD); 
+  motor4.setSpeed(speedH); 
+  motor4.run(FORWARD); 
+}
+void majuKanan()
+{
+  motor1.setSpeed(0); 
+  motor1.run(RELEASE);  
+  motor2.setSpeed(speedH); 
+  motor2.run(FORWARD);  
+  motor3.setSpeed(0); 
+  motor3.run(RELEASE); 
+  motor4.setSpeed(speedH); 
+  motor4.run(FORWARD); 
+}
+void majuKiri()
+{
+  motor1.setSpeed(speedH); 
+  motor1.run(FORWARD);  
+  motor2.setSpeed(0);
+  motor2.run(RELEASE);  
+  motor3.setSpeed(speedH); 
+  motor3.run(FORWARD); 
+  motor4.setSpeed(0); 
+  motor4.run(RELEASE); 
+}
+void mundurKanan()
+{
+  motor1.setSpeed(speedH); 
+  motor1.run(BACKWARD);  
+  motor2.setSpeed(0); 
+  motor2.run(RELEASE);  
+  motor3.setSpeed(speedH); 
+  motor3.run(BACKWARD); 
+  motor4.setSpeed(0); 
+  motor4.run(RELEASE); 
+}
+void mundurKiri()
+{
+  motor1.setSpeed(0); 
+  motor1.run(RELEASE);  
+  motor2.setSpeed(speedH); 
+  motor2.run(BACKWARD);  
+  motor3.setSpeed(0); 
+  motor3.run(RELEASE); 
+  motor4.setSpeed(speedH); 
+  motor4.run(BACKWARD); 
+}
+void putarKanan()
+{
+  motor1.setSpeed(speedH); 
+  motor1.run(BACKWARD);  
+  motor2.setSpeed(speedH); 
+  motor2.run(BACKWARD);  
+  motor3.setSpeed(speedH); 
+  motor3.run(FORWARD); 
+  motor4.setSpeed(speedH); 
+  motor4.run(FORWARD); 
+}
+void putarKiri()
+{
+  motor1.setSpeed(speedH); 
+  motor1.run(FORWARD);  
+  motor2.setSpeed(speedH); 
+  motor2.run(FORWARD);  
+  motor3.setSpeed(speedH); 
+  motor3.run(BACKWARD); 
+  motor4.setSpeed(speedH); 
+  motor4.run(BACKWARD); 
+}
+
+void berhenti()
+{
+  motor1.setSpeed(0);  
   motor1.run(RELEASE);
-  motor2.run(RELEASE);
-  motor3.run(RELEASE);
-  motor4.run(RELEASE);
+  motor2.setSpeed(0);  
+  motor2.run(RELEASE); 
+  motor3.setSpeed(0);  
+  motor3.run(RELEASE); 
+  motor4.setSpeed(0);  
+  motor4.run(RELEASE); 
 }
-
-void maju() {
-  motor1.run(FORWARD);
-  motor2.run(FORWARD);
-  motor3.run(FORWARD);
-  motor4.run(FORWARD);
-}
-
-void mundur() {
-  motor1.run(BACKWARD);
-  motor2.run(BACKWARD);
-  motor3.run(BACKWARD);
-  motor4.run(BACKWARD);
-}
-
 
 void setup() {
   Serial.begin(9600);
   IrReceiver.begin(IR_RECEIVE_PIN);
 
-  motor1.setSpeed(50);
-  motor2.setSpeed(50);
-  motor3.setSpeed(50);
-  motor4.setSpeed(50);
+
 
   //  servoL.attach();
   //  servoR.attach();
