@@ -10,7 +10,7 @@
 
 <p align="center">
   <span style="display:inline-block; margin:5px;">
-    <img src="https://img.shields.io/badge/Status-In%20Progress-blue" alt="Status">
+    <img src="https://img.shields.io/badge/Status-Compleated-green" alt="Status">
   </span>
   <span style="display:inline-block; margin:5px;">
     <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
